@@ -16,6 +16,10 @@ public class User {
     private String email;
     
     private String favGame;
+    
+    private String abbr;
+    
+  
 
 	public Integer getId() {
 		return id;
@@ -47,6 +51,19 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	public String getFavGame() {
+		return favGame;
+	}
+	public void setFavGame(String favGame) {
+		this.favGame = favGame;
+	}
+	public String getAbbr() {
+		return abbr;
+	}
+	public void setAbbr(String abbr) {
+		this.abbr = abbr;
 	}
 
 

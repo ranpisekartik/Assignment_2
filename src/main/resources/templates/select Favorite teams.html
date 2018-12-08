@@ -36,13 +36,13 @@
 	<p th:text="'Hello '+${name}+',Select Your Favorite team'"/>
 </div>
 <div style="float:left; width:350px; height:auto;">
-<select id="favgame">
+<select name="favGame" id="favgame" multiple="multiple">
 <option value="---">Please Select</option>
   <option value="WW">Washington Wizards</option>
   <option value="MH">Miami Heat</option>
   <option value="LAC">Los Angeles Clippers</option>
 </select>
-
+<input type="Submit"/>
 </div>
 
 
